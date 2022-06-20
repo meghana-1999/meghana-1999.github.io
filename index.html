@@ -1,13 +1,381 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/My image.jpg">
+    <link href="pictures/pic.jpeg" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Hello</h1>
-    <p>This is my portfolio</p>
+
+
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5" style="
+    background: linear-gradient(
+      50deg,
+      pink,
+      rgba(91, 14, 214, 0.7) 100%
+    );">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-black" style="color:rgba(91, 14, 214, 0.7);;">My Portfolio</span></h1>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse" style="text-align: center;">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link text-black ">About</a>
+                <a href="#qualification" class="nav-item nav-link ">Qualifications</a>
+                <a href="#skill" class="nav-item nav-link ">Skills</a>
+                <a href="#projects" class="nav-item nav-link ">Projects</a>
+                <a href="#certifications" class="nav-item nav-link">Certifications</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="https://www.linkedin.com/in/sai-meghana-surapaneni" class="btn btn blue btn-outline-dark btn-menu d-none d-lg-block font-weight-bold" style="color: black;"><strong>Connect with Me!</strong></a>
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-dark d-flex align-items-center mb-5 py-5" id="home" style="
+      background: linear-gradient(
+        50deg,
+        pink,
+        rgba(91, 14, 214, 0.7)100%
+      ); min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-center text-lg-left">
+                  <h2 class="mb-2 text-black">Hello,</h2>
+                  <h1 class="mb-2 text-black">This is Sai Meghana Surapaneni!!</h1>
+                    <h4 class="text-black font-weight-normal mb-3"> Graduate Student at Northeastern University</h4>
+                    <p class="text-black font-weight-normal mb-3"><strong>Ex-AI&ML Intern| Programming Enthusiast| Web-Developer </strong></p>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-3">
+                      <a class="btn blue btn-outline-dark btn-menu d-none d-lg-block font-weight-bold" style="color:black" href="Surapaneni_Sai Meghana.pdf" target="_blank"
+                      role="button"><strong>View Resume!</strong></a>
+                      </div>
+                </div>
+                <div class="col-lg-3 px-4 pl-lg-0 pb-4 pb-lg-4 about-img">
+                  <img class="img-fluid rounded-sqaure border-5px solid black shadow-sm" style="margin-top: 80px; margin-left: 200px;text-align:justify; width: 300px;" src="pictures/pic.jpeg" alt="">
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+    <div class="container-fluid py-3 py-lg-5 px-lg-5" id="about" >
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px rgba(91, 14, 214, 0.7);">About Me</h1>
+              <h1 class="position-absolute text-uppercase">About Me</h1>
+            </div>
+            <div class="position-relative justify-content-center">
+                <div class="col-lg-0 font-weight-bold">
+                    <p style="text-align:justify;">I was always driven by the rapid evolution of new technologies and innovations that emerged in the field of Computer Science. The curiosity to know about these emerging technologies started when I got introduced to computers in my school. 
+                      Ever since I decided to pursue a career in the field of Computer Science. The experience in my undergrad gave me ample knowledge in both theoretical and practical aspects. I have left no stone unturned in applying my learnings to build solutions for the complex problems I encountered in my learning process. I aspire to strengthen my fundamentals and master my skills through pursuing an 
+                      Masters degree in Software Engineering Systems at Northeastern University.
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6 class="font-weight-bold"  style="text-align:justify;">Name: <span class="text-dark">Sai Meghana Surapaneni</span></h6></div>
+                        <div class="col-sm-6 py-2 "><h6 class="font-weight-bold"  style="text-align:justify;">Birthday: <span class="text-dark">22nd-May,1999</span></h6></div>
+                        <div class="col-sm-6 py-2 "><h6 class="font-weight-bold"  style="text-align:justify;">Degree: <span class="text-dark">Masters Degree In Software Engineering Systems</span></h6></div>
+                        <div class="col-sm-6 py-2 "><h6 class="font-weight-bold"  style="text-align:justify;">Phone: <span class="text-dark">+1(234) 567-7890</span></h6></div>
+                        <div class="col-sm-6 py-2 "><h6 class="font-weight-bold"  style="text-align:justify;">Email: <span class="text-dark">surapaneni.sa@northeastern.edu</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6 class="font-weight-bold"  style="text-align:justify;">Address: <span class="text-dark">Boston, MA, USA</span></h6></div>
+                    </div>
+                    <a href="Surapaneni_Sai Meghana.pdf" class="btn btn-outline-dark font-weight-bold text-center">Hire Me</a>
+                    <a href="https://www.linkedin.com/in/sai-meghana-surapaneni" class="btn btn-outline-dark font-weight-bold">Learn More</a>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+     
+
+
+
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px rgba(91, 14, 214, 0.7)">QUALIFICATIONS</h1>
+                <h1 class="position-absolute text-uppercase">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-dark pt-10 pl-4 ml-2" style="color:pink">
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle font-weight-bold position-absolute" style="top: 2px; left: -35px; font-size: 22px; color:rgba(91, 14, 214, 0.7)"></i>
+                            <h5 class="font-weight-bold mb-1">MS in Software Engineerring Systems</h5>
+                            <p class="mb-2"><strong>Northeastern University</strong> | <small>Jan'2022 - Dec'2023</small></p>
+                            <p style="text-align:justify;"><strong>Relevant CourseWork:</strong> Object-Oriented Design and patterns, Program Structures and Algorithms, Web Design and User Experience Engineering</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle font-weight-bold position-absolute" style="top: 2px; left: -35px;  font-size: 22px;  color:rgba(91, 14, 214, 0.7)"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelors in Computer Science Engineering</h5>
+                            <p class="mb-2"><strong>GITAM University</strong> | <small>June'2017 - August'2021</small></p>
+                            <p style="text-align:justify;"><strong>Relevant CourseWork:</strong> Data Structures, Object-Oriented Programming, Design and Analysis of Algorithms, Operating Systems, Database
+                              Management Systems, Web Technologies, Cloud Computing, Agile Software Engineering,</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-dark pt-10 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4">
+                          <i class="far fa-dot-circle font-weight-bold position-absolute" style="top: 2px; left: -35px;  font-size: 22px;  color:rgba(91, 14, 214, 0.7)"></i>
+                          <h5 class="font-weight-bold mb-1">RSO Proctor</h5>
+                            <p class="mb-2"><strong>Northeastern University</strong> | <small> April'2022- Present</small></p>
+                            <ul>
+                              <li style="text-align:justify;">Maintaining access control system of the residence halls by utilising electronic control system and various alarms</li> 
+                              <li style="text-align:justify;">Providing customer service to residents, guests, and visitors by maintaining a special access list</li>
+                              <li style="text-align:justify;">Interacting with RSO supervisors and Northeastern Police, Housing services Staff, and other Professional Staff</li> 
+                              <li style="text-align:justify;">Following Supervisor instruction and independently completing highly detailed tasks</li>
+                              <li style="text-align:justify;">Assisting Lockouts and acting as mediator between residents and Residential life and other University resources</li>
+                              </ul>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle font-weight-bold position-absolute" style="top: 2px;left: -35px;  font-size: 22px; color:rgba(91, 14, 214, 0.7)"></i>
+                            <h5 class="font-weight-bold mb-1">Artificial Intelligence and Machine Learning Intern</h5>
+                            <p class="mb-2"><strong>Dhyanahitha Oraganization</strong> | <small> May'2020 - July'20</small></p>
+                            <ul>
+                                <li style="text-align:justify;">Developed AI & ML domain application by experimenting with various Machine Learning Algorithms </li> 
+                                <li style="text-align:justify;">Implemented exploratory data analysis and data handling techniques on large data sets for building Image recognition and
+                                  Personal Assistant application</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px rgba(91, 14, 214, 0.7)">Skills</h1>
+            <h1 class="position-absolute text-uppercase">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Programming Languages:Java,Python,C++,C,HTML,CSS,JavaScript</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:80%"></div>
+                          </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Database Systems: MongoDB, SQL</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:90%"></div>
+                          </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Frontend Technologies: Bootstrap, React, Angular</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:70%"></div>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Backend Technologies: ExpressJS,NodeJS,SpringBoot MVC</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                          </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Operating Systems:Linux,Mac,and Windows</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%"></div>
+                          </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Version Control: Git, GitHub</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:85%"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid pt-5" id="projects" >
+        <div class="container" style="align-content: center;">
+            <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px rgba(91, 14, 214, 0.7);">Projects</h1>
+                <h1 class="position-absolute text-uppercase">My Projects</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="service-box col-lg-3 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <h4 class="font-weight-bold m-0">The Menace Machine</h4>
+                    </div>
+                    <p style="text-align:justify;">Trained a machine to play tic-tac-toe against human strategy by leveraging a rewarding mechanism as in reinforcement
+                      learning and attained a (win+draw) percentage of 80% after 500 games</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4 col-md-4 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <h4 class="font-weight-bold m-0">Parkinson's Disease Detection and Its Clinical Analysis </h4>
+                    </div>
+                    <p style="text-align:justify;">Developed a classification model to detect Parkinson's disease by analysing speech data.Applied data pre-processing techniques and used principal component analysis to select 101 important features from the
+                      original data set of 756 features with PCA variance of 97%.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4 col-md-4 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <h4 class="font-weight-bold m-0">Student Career Prediction</h4>
+                    </div>
+                    <p style="text-align:justify;">Developed a model for predicting the student career path using the student interest dataset containing different fields related
+                      to a candidate’s interest and experience.Experimented with various algorithms including: Decision tree classifier, Support Vector machine, Naive Bayes Classifier,
+                      Random forest classifier, KNN and Logistic Regression. Obtained the accuracy of ~95% with Naive Bayes Classifier upon using feature engineering and multiple random feature
+                      sets</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+
+                <div class="service-box col-lg-4 col-md-4 text-center mb-5">
+                  <div class="d-flex align-items-center justify-content-center mb-4">
+                      <h4 class="font-weight-bold m-0">Churn Prediction</h4>
+                  </div>
+                  <p style="text-align:justify;">Implemented classification based Machine Learning Algorithms on Telecom data to predict churn rate. Performed experiments using Logistic regression, KNN and Random Forest algorithm and used various techniques for
+                    hyperparameter tuning. Able to achieve an accuracy of 91% on unseen test data using KNN and GridSearchCV</p>
+                  <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-3" id="certifications">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px rgba(91, 14, 214, 0.7);;">Certifications</h1>
+                <h1 class="position-absolute text-uppercase">My Certifications</h1>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 shadow p-4 mb-4 bg-white" src="pictures/crypto.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 shadow p-4 mb-4 bg-white" src="pictures/pythondata.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100 shadow p-4 mb-4 bg-white" src="pictures/soa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px rgba(91, 14, 214, 0.7);">Contact</h1>
+                <h1 class="position-absolute text-uppercase">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-dark" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-primary text-white mt-5 py-1 px-sm-1 px-md-5"
+   style=" background: linear-gradient(
+        50deg,
+        pink,
+        rgba(91, 14, 214, 0.7)100%
+      );">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/sai-meghana-surapaneni"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://github.com/meghana-1999"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Sai Meghana</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Sai Meghana</a>
+            </p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).on('click',function(){
+        $('.collapse').collapse('hide');
+        })
+    </script>
 </body>
 </html>
