@@ -14,3 +14,4 @@ Implemented using HTML,CSS, and Boostrap components.
 10. Icons: Included various icons 
 11. Grid: Re-arranging columns depending on the screen size (.col-sm, .col-md, .col-md, .col-lg, .col-xl)
 
+The overall Portofolio developement gives good Knowledge on usage of Boostrap Components.
