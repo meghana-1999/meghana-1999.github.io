@@ -1,5 +1,5 @@
 # Portfolio
-# Task: To create my own professional portfolio website using HTML, CSS and BOOTSTRAP
+# Task: To create professional portfolio website using HTML, CSS and BOOTSTRAP
 # Implementation:
 Implemented using HTML,CSS, and Boostrap components.
 1. Containers: Helps to pad contents in a page
